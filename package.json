@@ -1,0 +1,30 @@
+{
+  "name": "CWHub",
+  "version": "1.0.0",
+  "description": "Electron wrapper for Corsair Web Hub",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder && rm -rf dist/linux-unpacked dist/*.{yml,yaml}"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3"
+  }, 
+  "build": {
+    "appId": "com.github.ctzn07.cwhub", 
+    "productName": "CWHub", 
+    "directories": {
+      "output": "dist"
+    }, 
+    "files": ["main.js", "icon.png"], 
+    "linux": {
+      "target": ["AppImage"], 
+      "category": "Utility"
+    }, 
+    "appImage": {
+      "artifactName": "${productName}.${ext}"
+    }
+  }
+}
