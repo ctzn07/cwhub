@@ -21,7 +21,8 @@
     "files": ["main.js", "icon.png"], 
     "linux": {
       "target": ["AppImage"], 
-      "category": "Utility"
+      "category": "Utility", 
+      "compression": "normal"
     }, 
     "appImage": {
       "artifactName": "${productName}.${ext}"

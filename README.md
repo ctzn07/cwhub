@@ -3,7 +3,14 @@
 CWHub is an Electron wrapper for the Corsair Web Hub that provides compatible browser environment and manages necessary device permissions automatically.
 
 ## Downloads
--
+
+Latest release: 
+Linux 64-bit - <https://github.com/ctzn07/cwhub/releases/download/1.0.0/CWHub.AppImage>
+
+Verify checksums with:
+```sh
+sha256sum 049f08f3249dd54857e9cb3be28d47c14cdf613e62abf040c0e9975711d96e89
+```
 
 ## Installation
 
